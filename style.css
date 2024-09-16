@@ -1,0 +1,117 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*html {
+
+    height: 100vh;
+    width: 90%; como definir el tamaño de la pagina sobre todo el ancho
+}*/
+
+body { 
+    background-color: cornflowerblue;
+    font-family: monospace;
+    font-size: medium;
+    text-align: justify;
+    min-height: auto;
+    /* 15/09/24 */
+}
+
+main {
+    background-color: rgb(151, 250, 250);
+    padding: 50px;
+    margin: 10px;
+    /* 15/09/24 */
+}
+
+header {
+    display: block;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    font-size: 10px;
+    text-align: center;
+    /* 15/09/24 */
+}
+
+nav {
+    display: block; 
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    /* 15/09/24 */
+}
+
+section {
+    display: block; /* configuración predeterminada*/
+    background-color: brown;
+    padding: 10px;
+    margin: 50px;
+    /* 15/09/24 */
+}
+
+aside {
+    background-color: bisque;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    /* 15/09/24 */ 
+}
+
+article {
+    display: block;
+    /* 15/09/24 */
+}
+
+.all-browser{
+    background-color: chocolate;
+    padding: 5px;
+    margin: 0px;
+    /* 15/09/24 */
+}
+
+.all-browser > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+    background-color: darksalmon;
+    /* 15/09/24 */
+}
+
+.browser {
+    background-color: rgb(151, 247, 156);
+    /* 15/09/24 */
+}
+
+.browser p {
+    margin: 4px;
+    font-size: 90%;
+    background-color: yellow;
+    /* 15/09/24 */
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(124, 6, 6);
+    padding: 3%;
+    color: white;
+    margin: 10px;
+    /* 15/09/24 */
+}
+
+div{ 
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    outline-style: dotted;
+    outline-color: red;
+    outline-width: 2px;
+    outline-offset: 15px;
+}
